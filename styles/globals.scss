@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Raleway:wght@300;400;500;600;700;900&display=swap");
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+// header
+#header {
+    overflow: hidden;
+    .navbar {
+        background-color: #203040;
+        .nav_logo {
+            color: #fff;
+            font-weight: 500;
+            font-size: 1.5rem;
+        }
+        .nav-link {
+            font-size: 0.9rem;
+            color: #ddd;
+        }
+    }
+}
+
+// banner part
+#banner {
+    overflow: hidden;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+// service part start
+#service {
+    overflow: hidden;
+    .card {
+        cursor: pointer;
+        text-transform: uppercase;
+        height: 100%;
+        img {
+            height: 100%;
+            opacity: 0.9;
+        }
+    }
+}
+
+// Testimonial part
+#testimonial {
+    overflow: hidden;
+    .firstIcon {
+        font-size: 2rem;
+        color: #ff0000;
+    }
+    .secondIcon {
+        font-size: 2rem;
+        color: #009b08;
+    }
+    .thirdIcon {
+        font-size: 2rem;
+        color: #0c54da;
+    }
+    img {
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+}
+
+// product part
+#productId {
+    overflow: hidden;
+    a {
+        color: #fff;
+    }
+}
